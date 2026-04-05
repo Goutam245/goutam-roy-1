@@ -77,6 +77,13 @@ const experienceHighlights = [
     ongoing: true,
   },
   {
+    title: "Junior Frontend Developer",
+    company: "Tech Solutions Ltd – Dhaka, Bangladesh",
+    period: "Dec 2024 – Jun 2025",
+    desc: "Built 8+ apps using React.js, Next.js & TypeScript, improving API docs and performance by 40%.",
+    ongoing: false,
+  },
+  {
     title: "MilkWay — Full Stack Intern",
     company: "Dhaka, Bangladesh · Jan–May 2024",
     period: "Official Certificate",
@@ -134,7 +141,7 @@ const Home = () => {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.25, duration: 0.4 }}
-              className="font-mono text-sm text-text-faint tracking-[3px] mb-4 uppercase"
+              className="font-mono text-medium text-faint tracking-[3px] mb-4 uppercase"
             >
               Hi, I'm
             </motion.p>
@@ -202,11 +209,12 @@ const Home = () => {
                 View My Work <ArrowRight size={15} />
               </Link>
               <a
-                href="#"
-                className="px-6 py-3 rounded-lg border border-primary/25 text-primary text-sm font-medium hover:bg-primary/5 transition-all flex items-center gap-2"
-              >
-                <Download size={15} /> Download CV
-              </a>
+                href="/Goutam_Roy_Frontend_Developer.pdf"
+  download="Goutam_Roy_Frontend_Developer.pdf"
+  className="px-6 py-3 rounded-lg border border-primary/25 text-primary text-sm font-medium hover:bg-primary/5 transition-all flex items-center gap-2"
+>
+  <Download size={15} /> Download CV
+</a>
             </motion.div>
 
             <motion.div
@@ -469,6 +477,8 @@ const Home = () => {
               ))}
             </div>
           </div>
+        
+        
         </div>
       </section>
 
@@ -495,6 +505,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+     
 
       {/* ── Values ── */}
       <section className="py-24">

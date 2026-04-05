@@ -50,6 +50,23 @@ const projects: Project[] = [
     featured: true,
   },
   {
+    title: "AutoElite Torino - Premium Car Rental Website",
+    category: "Rental Website",
+    badgeColor: "mint",
+    desc: "Luxury car rental platform for Ferrari, Lamborghini, Porsche & Mercedes — Torino, Italy",
+    tech: ["React", "HTML", "CSS", "JavaScript","Google Maps integration", "Real-time Preview"],
+    highlights: [
+      "24/7 Concierge — Phone, WhatsApp & Email (IT / EN / FR / DE)",
+      "No Hidden Fees — Full insurance & airport fees disclosed upfront",
+      "Corporate Accounts — 200+ company clients, monthly invoicing",
+      "Flexible Booking — Free cancellation up to 48 hours before pickup"
+    ],
+    tags: ["React"],
+    live: "https://aut0elite-torino.netlify.app/",
+    github: "https://github.com/Goutam245/AutoElite-Torino/tree/main",
+    image: "https://i.ibb.co.com/2zkZLdJ/222.jpg",
+  },
+  {
     title: "Professional CV Builder",
     category: "SaaS Tool",
     badgeColor: "mint",
@@ -93,7 +110,10 @@ const projects: Project[] = [
       "Mobile-first, SEO-optimized architecture",
     ],
     tags: ["Next.js", "Full Stack"],
-    image: "https://i.ibb.co/bMLk8zPB/Screenshot-2025-07-27-190502.jpg",
+    live: "https://real-estate-listing-site-ketf.vercel.app/",
+    github: "https://github.com/Goutam245/Real-estate-listing-site",
+    image: "https://i.ibb.co/bMLk8zPB/Screenshot-2025-07-27-190502.jpg"
+
   },
   {
     title: "Cryptocurrency Trading Dashboard",
@@ -106,21 +126,10 @@ const projects: Project[] = [
       "Candlestick charts with Chart.js",
       "Dark/light theme with smooth transition",
     ],
-    tags: ["React"],
-  },
-  {
-    title: "Global Translation Platform",
-    category: "Web App",
-    badgeColor: "violet",
-    desc: "Multilingual communication tool supporting 25+ language pairs — built with vanilla JavaScript and browser-native Web APIs.",
-    tech: ["Vanilla JS", "Web APIs", "PWA", "Offline-first", "25+ Languages"],
-    highlights: [
-      "25+ language pairs supported",
-      "Zero backend — browser-native Web APIs only",
-      "Offline-capable as Progressive Web App",
-    ],
-    tags: ["Vanilla JS"],
-    image: "https://i.ibb.co/0jrRSgHh/Translator.jpg",
+    tags: ["React", "TypeScript", "Chart.js", "WebSocket", "Real-time"],
+     live: "https://cryptocurrency-dashboard-fawn.vercel.app/",
+    github: "https://github.com/Goutam245/Cryptocurrency-Dashboard",
+    image: "https://i.ibb.co.com/LhRMpZB9/crypto.jpg"
   },
   {
     title: "Ultimate Gaming Website",
@@ -134,6 +143,8 @@ const projects: Project[] = [
       "PWA with offline functionality",
     ],
     tags: ["React"],
+       live: "https://ultimate-game-website.vercel.app/",
+    github: "https://github.com/Goutam245/Ultimate-Game-Website-",
     image: "https://i.ibb.co/sdVkCCvH/game.jpg",
   },
   {
@@ -150,20 +161,7 @@ const projects: Project[] = [
     tags: ["React", "Full Stack"],
     image: "https://i.ibb.co/5hnxfnx1/fiver.jpg",
   },
-  {
-    title: "Seaside Stay Resort",
-    category: "Hospitality",
-    badgeColor: "violet",
-    desc: "Premium luxury resort website with real-time room availability, virtual tour integration, and mobile-optimized UX.",
-    tech: ["Next.js", "React", "TypeScript", "Real-time Booking", "Virtual Tours"],
-    highlights: [
-      "Real-time room availability system",
-      "Virtual tour integration",
-      "95+ PageSpeed, luxury UX design",
-    ],
-    tags: ["Next.js", "React"],
-    image: "https://i.ibb.co/h1x0H7qL/res.jpg",
-  },
+  
 ];
 
 const filters = ["All", "React", "Next.js", "Vanilla JS", "Full Stack"];

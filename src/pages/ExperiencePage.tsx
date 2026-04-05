@@ -20,6 +20,20 @@ const timeline = [
     tags: ["React.js", "Next.js", "TypeScript", "Node.js", "API Documentation", "Client Communication", "Remote Work"],
   },
   {
+    title: "Junior Frontend Developer",
+    company: "Tech Solutions Ltd – Dhaka, Bangladesh",
+    period: "Dec 2024 – Jun 2025",
+    ongoing: false,
+    desc: "Worked as a Junior Frontend Developer at Tech Solutions Ltd, Dhaka for 7 months, building responsive enterprise web applications using React.js, Next.js, and TypeScript. Contributed to API documentation with Swagger/OpenAPI and actively focused on performance optimization to enhance user experience.\n\nGained strong real-world exposure to modern frontend development practices within a professional team environment, strengthening both technical skills and collaborative work habits.",
+    highlights: [
+      "Built 8+ scalable enterprise web apps using React.js, Next.js, and TypeScript",
+      "Documented 20+ RESTful APIs with Swagger/OpenAPI for seamless integration",
+      "Reduced developer onboarding time by 35% through clear API documentation",
+      "Optimized app startup by 40%, boosting Lighthouse scores and user experience",
+    ],
+    tags: [ "JavaScript","React.js", "Next.js", "TypeScript", "Node.js", "Swagger/OpenAPI", "Performance Optimization"],
+  },
+  {
     title: "Full Stack Web Developer Intern",
     company: "MilkWay · Dhaka, Bangladesh",
     period: "January 2024 – May 2024 · 6 Months · Official Certificate",
