@@ -6,7 +6,7 @@
 
 A professional personal portfolio showcasing real client projects, verified credentials, and 3+ years of freelance experience — built for international remote opportunities.
 
-🔗 **Live Site →** `[[https://your-domain.vercel.app](https://goutam-roy-portfolio1.netlify.app/)`](https://goutam-roy-portfolio1.netlify.app/)
+🔗 **Live Site →** [Goutam Roy Portfolio](https://goutam-roy-portfolio1.netlify.app/)
 
 ---
 
